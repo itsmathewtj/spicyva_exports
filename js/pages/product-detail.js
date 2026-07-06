@@ -10,4 +10,5 @@
 
   window.renderLayout();
   window.Screens.initProductDetail();
+  window.Screens.initProductActions(document.getElementById("app"));
 })();

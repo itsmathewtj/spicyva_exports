@@ -41,7 +41,7 @@
       '<header class="site-header" id="header">' +
       '<div class="shell nav">' +
       '<a class="brand" href="index.html" aria-label="Spicyva Exports home">' +
-      '<span class="brand-mark">SE</span><span>Spicyva Exports</span></a>' +
+      '<img class="brand-logo" src="assets/Logos.png" alt="Spicyva Exports"></a>' +
       '<div class="nav-wrap"><nav class="nav-links" aria-label="Primary navigation">' +
       navLinks() +
       '</nav><div class="mega"><div class="mega-grid">' +
@@ -57,7 +57,7 @@
   function renderFooter() {
     document.getElementById("site-footer").innerHTML =
       '<footer class="footer"><div class="shell footer-grid">' +
-      '<div class="footer-about"><a class="brand" href="index.html"><span class="brand-mark">SE</span><span>Spicyva Exports</span></a><p>Premium international export partner for products, sourcing, packaging, logistics, and long-term B2B trade programs.</p><div class="footer-socials">' +
+      '<div class="footer-about"><a class="brand" href="index.html"><img class="brand-logo footer-brand-logo" src="assets/Logos.png" alt="Spicyva Exports"></a><p>Premium international export partner for products, sourcing, packaging, logistics, and long-term B2B trade programs.</p><div class="footer-socials">' +
       contactIcon("whatsapp", contacts.whatsappHref, "WhatsApp Spicyva Exports") +
       contactIcon("phone", contacts.phoneHref, "Call Spicyva Exports") +
       contactIcon("email", contacts.emailHref, "Email Spicyva Exports") +

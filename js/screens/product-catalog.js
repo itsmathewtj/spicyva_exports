@@ -12,8 +12,8 @@ window.Screens.productCatalog = function () {
     '<select class="field" id="countryFilter"><option value="">All countries</option>' + countries + "</select>" +
     '<select class="field" id="industryFilter"><option value="">All industries</option>' + industries + "</select>" +
     '<button class="btn secondary" id="viewToggle">List View</button></div>' +
-    '<div class="product-visual-strip"><img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=80" alt="Export spices"><img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=80" alt="Export grains"><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80" alt="Export packaging"></div>' +
-    '<div class="inline-actions" style="margin-bottom:20px"><span class="pill" id="resultCount"></span><span class="pill" id="compareTray">Compare: none</span><span class="pill">Recently Viewed ready</span><a class="pill" href="Spicyva-Product-Catalog.pdf" download>Download Catalog</a></div>' +
+    '<div class="product-visual-strip"><img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=80" alt="Export spices"><img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=80" alt="Export grains"><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80" alt="Export-ready packaged goods"></div>' +
+    '<div class="inline-actions" style="margin-bottom:20px"><span class="pill" id="resultCount"></span><span class="pill">Recently Viewed ready</span><a class="pill" href="Spicyva-Product-Catalog.pdf" download>Download Catalog</a></div>' +
     '<div class="grid three product-grid" id="productGrid">' + products + "</div>" +
     '<div class="btn-row" style="justify-content:center;margin-top:32px"><button class="btn secondary">Previous</button><span class="pill">Page 1 of 2</span><button class="btn">Next</button></div>' +
     "</div></section>"

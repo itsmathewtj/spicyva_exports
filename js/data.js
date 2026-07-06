@@ -66,7 +66,7 @@ window.SiteData = {
     {
       title: "Customs Clearance",
       slug: "customs-clearance",
-      image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80",
+      image: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80",
       text: "Customs partner coordination to keep exports moving cleanly across borders.",
       benefits: ["HS guidance", "Broker coordination", "Reduced clearance risk"],
       process: ["Classify goods", "File documents", "Clear shipment"]
@@ -134,7 +134,7 @@ window.SiteData = {
       industry: "Agriculture",
       availability: "In Stock",
       moq: "1 x 20 ft",
-      image: "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?auto=format&fit=crop&w=900&q=80",
+      image: "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=900&q=80",
       description: "Compressed coir substrate blocks for nurseries, hydroponics, and greenhouse farms.",
       specs: ["Low EC", "Washed options", "5 kg blocks"],
       packaging: "Palletized and container loaded",
@@ -269,7 +269,7 @@ window.SiteData = {
       industry: "Food",
       availability: "Seasonal",
       moq: "1 MT",
-      image: "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?auto=format&fit=crop&w=900&q=80",
+      image: "https://images.unsplash.com/photo-1609842947419-ba4f04d5d60f?auto=format&fit=crop&w=900&q=80",
       description: "Cleaned sesame seeds for bakery, tahini, and food ingredient buyers.",
       specs: ["Natural and hulled options", "Sortex cleaned", "Oil content by lot"],
       packaging: "25 kg paper or PP bags",
@@ -389,7 +389,7 @@ window.SiteData = {
       products: "Cardamom, turmeric, cumin",
       industry: "Food distribution",
       duration: "9 months",
-      image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=900&q=80",
+      image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=900&q=80",
       story: "Built a monthly mixed-container program with stronger inspection checkpoints and stable dispatch windows."
     },
     {
@@ -398,7 +398,7 @@ window.SiteData = {
       products: "Basmati rice",
       industry: "Retail",
       duration: "6 months",
-      image: "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?auto=format&fit=crop&w=900&q=80",
+      image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=900&q=80",
       story: "Delivered custom packaging, barcode-ready cartons, and repeat container planning for a retail chain."
     },
     {

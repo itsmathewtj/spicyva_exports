@@ -1,11 +1,6 @@
 window.Screens = window.Screens || {};
 
 window.Screens.homeHero = function () {
-  var stats = window.SiteData.stats
-    .map(function (item) {
-      return '<div class="stat"><strong data-count="' + item[0].replace("+", "") + '">0+</strong><span>' + item[1] + "</span></div>";
-    })
-    .join("");
   var slides = [
     {
       label: "Spice Origin",
@@ -69,8 +64,6 @@ window.Screens.homeHero = function () {
     '<div class="hero-story fade-in">' + slideCopy +
     '<div class="btn-row" style="margin-top:28px"><a class="btn" href="products.html">Explore Products</a><a class="btn secondary hero-outline" href="contact.html">Contact Us</a></div>' +
     '<div class="hero-dots" aria-label="Hero slides">' + dots + "</div></div>" +
-    '<aside class="hero-panel fade-in"><p class="eyebrow">Trade Desk Snapshot</p><div class="stat-grid">' + stats + "</div>" +
-    '<div class="hero-note"><strong>Today on desk</strong><span>3 mixed-container quotes, 2 private-label packaging reviews, 1 EU coir dispatch.</span></div></aside>' +
     "</div></section>"
   );
 };
@@ -112,20 +105,4 @@ window.Screens.initHomeHero = function () {
   });
 
   start();
-};
-
-window.Screens.animateStats = function () {
-  document.querySelectorAll("[data-count]").forEach(function (el) {
-    var target = Number(el.dataset.count);
-    var current = 0;
-    var step = Math.max(1, Math.round(target / 32));
-    var timer = setInterval(function () {
-      current += step;
-      if (current >= target) {
-        current = target;
-        clearInterval(timer);
-      }
-      el.textContent = current + "+";
-    }, 30);
-  });
 };
