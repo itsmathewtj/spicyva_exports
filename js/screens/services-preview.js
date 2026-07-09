@@ -2,7 +2,7 @@ window.Screens = window.Screens || {};
 
 window.Screens.servicesPreview = function () {
   var cards = window.SiteData.services
-    .slice(0, 8)
+    .slice(0, 4)
     .map(function (service, index) {
       return (
         '<article class="card service-card fade-in"><img src="' + service.image + '" alt="' + service.title + '"><div class="body"><span class="pill">0' + (index + 1) + "</span><h3>" +
@@ -17,7 +17,7 @@ window.Screens.servicesPreview = function () {
     .join("");
 
   return (
-    '<section class="section alt"><div class="shell"><div class="section-head"><div><p class="eyebrow">Services</p><h2 class="section-title">A complete export operating layer.</h2><p class="section-lead">Premium service cards with focused support from consultation through delivery.</p></div><a class="btn" href="services.html">All Services</a></div><div class="grid four">' +
+    '<section class="section alt services-preview-section"><div class="shell"><div class="section-intro"><p class="eyebrow">Our Services</p><h2 class="section-title">Export support for every order stage.</h2><p class="section-lead">From consultation and sourcing to documentation and packing, our services keep buyer communication clear and shipment movement dependable.</p></div><div class="grid four">' +
     cards +
     "</div></div></section>"
   );

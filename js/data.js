@@ -4,8 +4,6 @@ window.SiteData = {
     ["About", "about.html", "about"],
     ["Services", "services.html", "services"],
     ["Products", "products.html", "products"],
-    ["Projects", "projects.html", "projects"],
-    ["Blogs", "blogs.html", "blogs"],
     ["Contact", "contact.html", "contact"]
   ],
   stats: [
@@ -459,3 +457,41 @@ window.SiteData = {
     ["We needed a supplier who could support private-label packaging without slowing down the shipment. Their coordination between sourcing, packing, and freight was dependable, and they gave us enough detail to keep our retail launch on schedule.", "Retail Buyer, USA"]
   ]
 };
+
+window.SiteData.products = [
+  ["TURMERIC", "turmeric", "assets/TURMERIC.png"],
+  ["CORIANDER", "coriander", "assets/CORIANDER.png"],
+  ["RED CHILLI", "red-chilli", "assets/RED CHILLI.png"],
+  ["CUMIN SEEDS", "cumin-seeds", "assets/CUMIN SEEDS.png"],
+  ["MUSTARD", "mustard", "assets/MUSTARD.png"],
+  ["FENNEL SEEDS", "fennel-seeds", "assets/FENNEL SEEDS.png"],
+  ["FENUGREEK SEEDS", "fenugreek-seeds", "assets/FENUGREEK SEEDS.png"],
+  ["CARDAMOM", "cardamom", "assets/222.png"],
+  ["CLOVES", "cloves", "assets/333.png"],
+  ["CINNAMON", "cinnamon", "assets/444.png"],
+  ["BLACK PEPPER", "black-pepper", "assets/BLACK PEPPER.png"],
+  ["STAR ANISE", "star-anise", "assets/STAR ANISE.png"],
+  ["DRIED GINGER", "dried-ginger", "assets/111.png"],
+  ["MACE & NUTMEG", "mace-nutmeg", "assets/MACE & NUTMEG.png"],
+  ["COCONUT", "coconut", "assets/COCONUT.png"],
+  ["BAY LEAF", "bay-leaf", "assets/BAY LEAF.png"],
+  ["GREEN GRAM", "green-gram", "assets/GREEN GRAM.png"],
+  ["PULSES", "pulses", "assets/PULSES.png"]
+].map(function (item) {
+  return {
+    name: item[0],
+    slug: item[1],
+    category: item[0] === "PULSES" || item[0] === "GREEN GRAM" ? "Pulses" : "Spices",
+    country: "India",
+    industry: "Food",
+    availability: "Export Ready",
+    moq: "As per buyer requirement",
+    image: item[2],
+    description: "Carefully sourced Indian quality with clean grading, dependable packing, and export documentation for international food buyers.",
+    detailText: "Spicyva supplies this product through verified Indian sourcing channels with careful lot selection, buyer-led specifications, and export-ready documentation. Each order can be planned for retail packing, bulk movement, or private-label programs depending on destination requirements. Our team supports sample coordination, moisture and cleanliness checks, packing guidance, shipment planning, and document preparation so importers receive consistent quality with clear communication from inquiry to dispatch.",
+    specs: ["Cleaned and graded lots", "Buyer specification matching", "Bulk and retail packing options"],
+    packaging: "PP bags, cartons, jars, pouches, or buyer-specific export packing.",
+    shipping: "Air, LCL, and FCL sea freight coordination available.",
+    certifications: "FSSAI, APEDA, phytosanitary, COA, and buyer-requested documents supported."
+  };
+});

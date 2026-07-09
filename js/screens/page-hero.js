@@ -8,7 +8,8 @@ window.Screens.pageHero = function (options) {
     })
     .join("");
   return (
-    '<section class="page-hero" style="--hero-image:url(' + options.image + ')">' +
+    '<section class="page-hero ' + (options.className || "") + '" style="--hero-image:url(' + options.image + ')">' +
+    '<img class="page-hero-bg" src="' + options.image + '" alt="">' +
     '<div class="shell fade-in">' +
     '<p class="eyebrow">' + options.eyebrow + "</p>" +
     "<h1>" + options.title + "</h1>" +

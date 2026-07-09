@@ -18,7 +18,7 @@ function whyChooseItems() {
 window.Screens.whyChoose = function () {
   var items = whyChooseItems();
   return (
-    '<section class="section alt why-section"><div class="shell"><div class="section-head"><div><p class="eyebrow">Why Choose Us</p><h2 class="section-title">Export questions answered clearly.</h2><p class="section-lead">Tap the plus icon to open each answer and see how our export desk handles quality, documents, packaging, and delivery.</p></div></div><div class="why-layout fade-in" id="whyCarousel"><div class="why-questions">' +
+    '<section class="section alt why-section"><div class="shell"><div class="section-intro"><p class="eyebrow">Buyer Questions</p><h2 class="section-title">Clear answers before your shipment moves.</h2><p class="section-lead">Open each question to see how our export desk handles product quality, documents, packing, samples, timelines, and delivery planning.</p></div><div class="why-layout fade-in" id="whyCarousel"><div class="why-questions">' +
     items.map(function (item, index) {
       var active = index === 0 ? " active" : "";
       return '<article class="why-faq' + active + '"><button class="why-question" type="button" data-why-dot="' + index + '" aria-expanded="' + (index === 0 ? "true" : "false") + '"><span>' + item[0] + '</span><strong>' + (index === 0 ? "-" : "+") + '</strong></button><div class="why-answer"><p>' + item[1] + "</p></div></article>";

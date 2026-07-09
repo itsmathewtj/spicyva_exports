@@ -64,7 +64,7 @@
       contactIcon("instagram", contacts.instagramHref, "Instagram") +
       contactIcon("facebook", contacts.facebookHref, "Facebook") +
       "</div></div>" +
-      '<div><h3>Company</h3><p><a href="about.html">About</a></p><p><a href="projects.html">Projects</a></p><p><a href="blogs.html">Blogs</a></p></div>' +
+      '<div><h3>Company</h3><p><a href="about.html">About</a></p><p><a href="services.html">Services</a></p><p><a href="contact.html">Contact</a></p></div>' +
       '<div><h3>Trade Desk</h3><p><a href="services.html">Services</a></p><p><a href="products.html">Products</a></p><p><a href="contact.html">Quote Request</a></p></div>' +
       '<div class="footer-contact"><h3>Contact</h3><p><span class="mini-icon">' + icon("location") + '</span><strong>Location:</strong> Chennai, Tamil Nadu, India</p><p><span class="mini-icon">' + icon("phone") + '</span><strong>Phone:</strong> <a href="' + contacts.phoneHref + '">' + contacts.phone + '</a></p><p><span class="mini-icon">' + icon("whatsapp") + '</span><strong>WhatsApp:</strong> <a href="' + contacts.whatsappHref + '">Chat with us</a></p><p><span class="mini-icon">' + icon("email") + '</span><strong>Email:</strong> <a href="' + contacts.emailHref + '">' + contacts.email + '</a></p></div>' +
       '</div><div class="shell footer-copy"><span>(c) 2026 Spicyva Exports. Built for global trade.</span><span class="designer-line">Designed by <a href="https://itsmathewtj.github.io/TWODLE_MEDIA/" target="_blank" rel="noopener">twopdle MEDIA</a></span></div></footer>' +

@@ -3,19 +3,20 @@ window.Screens = window.Screens || {};
 window.Screens.productCard = function (product) {
   return (
     '<article class="card product-card fade-in" data-slug="' + product.slug + '" data-category="' + product.category + '" data-country="' + product.country + '" data-industry="' + product.industry + '">' +
-    '<img src="' + product.image + '" alt="' + product.name + '">' +
-    '<div class="body"><div class="inline-actions" style="justify-content:space-between"><span class="pill">' + product.category + '</span><button class="icon-btn wishlist-btn" title="Wishlist">Save</button></div>' +
+    '<a class="product-image-link" href="product-detail.html?slug=' + product.slug + '"><img src="' + product.image + '" alt="' + product.name + '"></a>' +
+    '<div class="body">' +
     "<h3>" + product.name + "</h3><p>" + product.description + "</p>" +
-    '<div class="meta"><span class="pill">' + product.country + '</span><span class="pill">' + product.availability + '</span><span class="pill">MOQ ' + product.moq + '</span></div>' +
+    '<p class="card-extra">Available for bulk export, private-label packing, samples, and destination-ready documentation support.</p>' +
     '<div class="btn-row"><a class="btn secondary" href="product-detail.html?slug=' + product.slug + '">View Details</a></div>' +
     "</div></article>"
   );
 };
 
 window.Screens.featuredProducts = function () {
-  var cards = window.SiteData.products.slice(0, 4).map(window.Screens.productCard).join("");
+  var featuredNames = { "PULSES": true, "CINNAMON": true, "MACE & NUTMEG": true, "BLACK PEPPER": true };
+  var cards = window.SiteData.products.filter(function (product) { return featuredNames[product.name]; }).map(window.Screens.productCard).join("");
   return (
-    '<section class="section featured-products"><div class="shell"><div class="section-head"><div><p class="eyebrow">Featured Products</p><h2 class="section-title">Export-ready catalog highlights.</h2><p class="section-lead">Searchable product cards with origin, availability, MOQ, wishlist, and clear detail actions.</p></div><a class="btn" href="products.html">Open Catalog</a></div><div class="grid four">' +
+    '<section class="section featured-products"><div class="shell"><div class="section-head"><div><p class="eyebrow">Featured Products</p><h2 class="section-title">A sharper catalog for global buyers.</h2><p class="section-lead">Product cards surface the details importers ask for first: origin, MOQ, lot status, and a clear next step.</p></div><a class="btn" href="products.html">Open Catalog</a></div><div class="grid four">' +
     cards +
     "</div></div></section>"
   );

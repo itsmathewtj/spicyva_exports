@@ -1,13 +1,30 @@
 window.Screens = window.Screens || {};
 
 window.Screens.latestBlogs = function () {
+  var cards = [
+    {
+      image: "assets/222.png",
+      title: "Premium Indian Spices",
+      text: "Export quality spices prepared for global standards."
+    },
+    {
+      image: "assets/333.png",
+      title: "Global Agro Exports",
+      text: "Trusted sourcing for spices, coconut, grains, and agri products."
+    },
+    {
+      image: "assets/444.png",
+      title: "Worldwide Delivery",
+      text: "Connecting India to global markets with dependable logistics."
+    }
+  ];
   return (
-    '<section class="section alt"><div class="shell"><div class="section-head"><div><p class="eyebrow">Latest Blogs</p><h2 class="section-title">Export thinking for serious buyers.</h2></div><a class="btn" href="blogs.html">Read Articles</a></div><div class="grid three">' +
-    window.SiteData.blogs
-      .map(function (blog) {
-        return '<article class="card blog-card fade-in"><img src="' + blog.image + '" alt="' + blog.title + '"><div class="body"><span class="pill">' + blog.category + '</span><h3>' + blog.title + '</h3><p>' + blog.excerpt + '</p><div style="margin-top:16px"><a class="btn secondary" href="blog-detail.html?slug=' + blog.slug + '">Read More</a></div></div></article>';
+    '<section class="section agro-story-section"><div class="shell"><div class="section-head"><div><p class="eyebrow">Export Highlights</p><h2 class="section-title">Built around product quality, trust, and delivery.</h2></div></div><div class="agro-story-grid">' +
+    cards
+      .map(function (card) {
+        return '<article class="agro-story-card fade-in"><img src="' + card.image + '" alt="' + card.title + '"></article>';
       })
       .join("") +
-    "</div></div></section>"
+    '</div></div></section>'
   );
 };
