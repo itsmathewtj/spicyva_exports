@@ -53,14 +53,14 @@ window.SiteData = {
       benefits: ["Carrier options", "Route optimization", "Shipment tracking"],
       process: ["Compare routes", "Book freight", "Monitor movement"]
     },
-    {
-      title: "Warehousing",
-      slug: "warehousing",
-      image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=900&q=80",
-      text: "Inventory staging, consolidation, and dispatch readiness for multi-SKU export programs.",
-      benefits: ["Consolidation", "Inventory control", "Dispatch planning"],
-      process: ["Receive goods", "Inspect lots", "Prepare dispatch"]
-    },
+    // {
+    //   title: "Warehousing",
+    //   slug: "warehousing",
+    //   image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=900&q=80",
+    //   text: "Inventory staging, consolidation, and dispatch readiness for multi-SKU export programs.",
+    //   benefits: ["Consolidation", "Inventory control", "Dispatch planning"],
+    //   process: ["Receive goods", "Inspect lots", "Prepare dispatch"]
+    // },
     {
       title: "Customs Clearance",
       slug: "customs-clearance",
@@ -69,14 +69,14 @@ window.SiteData = {
       benefits: ["HS guidance", "Broker coordination", "Reduced clearance risk"],
       process: ["Classify goods", "File documents", "Clear shipment"]
     },
-    {
-      title: "Door-to-Door Delivery",
-      slug: "door-to-door-delivery",
-      image: "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=900&q=80",
-      text: "Complete movement from origin facility to buyer destination with single-window updates.",
-      benefits: ["One contact", "End-to-end tracking", "Final-mile support"],
-      process: ["Plan route", "Move shipment", "Confirm delivery"]
-    }
+    // {
+    //   title: "Door-to-Door Delivery",
+    //   slug: "door-to-door-delivery",
+    //   image: "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=900&q=80",
+    //   text: "Complete movement from origin facility to buyer destination with single-window updates.",
+    //   benefits: ["One contact", "End-to-end tracking", "Final-mile support"],
+    //   process: ["Plan route", "Move shipment", "Confirm delivery"]
+    // }
   ],
   products: [
     {
@@ -466,12 +466,12 @@ window.SiteData.products = [
   ["MUSTARD", "mustard", "assets/MUSTARD.png"],
   ["FENNEL SEEDS", "fennel-seeds", "assets/FENNEL SEEDS.png"],
   ["FENUGREEK SEEDS", "fenugreek-seeds", "assets/FENUGREEK SEEDS.png"],
-  ["CARDAMOM", "cardamom", "assets/222.png"],
-  ["CLOVES", "cloves", "assets/333.png"],
-  ["CINNAMON", "cinnamon", "assets/444.png"],
+  ["CARDAMOM", "cardamom", "assets/CARDAMOM.png"],
+  ["CLOVES", "cloves", "assets/CLOVES.png"],
+  ["CINNAMON", "cinnamon", "assets/CINNAMON.png"],
   ["BLACK PEPPER", "black-pepper", "assets/BLACK PEPPER.png"],
   ["STAR ANISE", "star-anise", "assets/STAR ANISE.png"],
-  ["DRIED GINGER", "dried-ginger", "assets/111.png"],
+  ["DRIED GINGER", "dried-ginger", "assets/DRIED GINGER.png"],
   ["MACE & NUTMEG", "mace-nutmeg", "assets/MACE & NUTMEG.png"],
   ["COCONUT", "coconut", "assets/COCONUT.png"],
   ["BAY LEAF", "bay-leaf", "assets/BAY LEAF.png"],
