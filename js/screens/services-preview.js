@@ -9,9 +9,11 @@ window.Screens.servicesPreview = function () {
         service.title +
         "</h3><p>" +
         service.text +
-        '</p><div style="margin-top:18px"><a class="btn secondary" href="services.html#' +
+        '</p><div class="btn-row service-card-actions"><a class="btn secondary" href="services.html#' +
         service.slug +
-        '">View Service</a></div></div></article>'
+        '">View Service</a><a class="btn secondary" href="service-detail.html?slug=' +
+        service.slug +
+        '">View Details</a></div></div></article>'
       );
     })
     .join("");

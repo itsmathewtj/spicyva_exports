@@ -9,7 +9,7 @@ window.Screens.servicesFull = function () {
           '<article class="card service-card service-detail-card fade-in" id="' + service.slug + '"><img src="' + service.image + '" alt="' + service.title + '"><div class="body"><h2>' + service.title + "</h2><p>" + service.text + "</p>" +
           '<p class="card-extra">Our team aligns requirements, timelines, and buyer communication so each export step stays practical and traceable.</p>' +
           '<div class="meta">' + service.benefits.slice(0, 2).map(function (item) { return '<span class="pill">' + item + "</span>"; }).join("") + "</div>" +
-          '<div class="btn-row"><a class="btn secondary" href="contact.html">Contact</a></div></div></article>'
+          '<div class="btn-row service-card-actions"><a class="btn secondary" href="contact.html">Contact</a><a class="btn secondary" href="service-detail.html?slug=' + service.slug + '">View Details</a></div></div></article>'
         );
       })
       .join("") +

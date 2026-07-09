@@ -19,7 +19,11 @@ window.SiteData = {
       image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=80",
       text: "Market entry planning, buyer readiness, compliance routes, and practical export strategy.",
       benefits: ["Market validation", "Buyer documentation", "Compliance roadmap"],
-      process: ["Assess requirement", "Map destination rules", "Prepare export plan"]
+      process: ["Assess requirement", "Map destination rules", "Prepare export plan"],
+      overview: "Export Consultation gives buyers and first-time exporters a clear operating plan before money, stock, and shipment timelines are committed. Spicyva reviews the product, destination market, buyer expectations, documentation needs, and commercial readiness so the export program starts with fewer unknowns.",
+      scope: ["Product and destination feasibility review", "Buyer-ready quote and document guidance", "HS code, labelling, packing, and compliance route discussion", "MOQ, sample, payment, and dispatch planning", "Risk notes for delays, claims, and destination-specific checks"],
+      deliverables: ["Practical export roadmap", "Document checklist", "Buyer communication plan", "Shipment readiness notes"],
+      bestFor: "New export programs, importers evaluating Indian suppliers, private-label launches, and businesses that need a clear plan before sourcing or shipping."
     },
     {
       title: "Product Sourcing",
@@ -27,7 +31,11 @@ window.SiteData = {
       image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=900&q=80",
       text: "Verified supplier networks and quality-led procurement for agricultural and industrial categories.",
       benefits: ["Vetted vendors", "Sample coordination", "Transparent origin"],
-      process: ["Define specs", "Shortlist producers", "Approve sample"]
+      process: ["Define specs", "Shortlist producers", "Approve sample"],
+      overview: "Product Sourcing helps buyers find dependable products through verified supply channels, practical specification matching, and transparent communication. The focus is not only price, but consistent quality, origin clarity, packing suitability, and repeat-order reliability.",
+      scope: ["Requirement capture by product, grade, packing, and MOQ", "Supplier and lot shortlisting", "Sample coordination and buyer approval support", "Price, lead-time, and packing comparison", "Pre-dispatch quality and document coordination"],
+      deliverables: ["Supplier shortlist", "Sample and lot updates", "Commercial quote support", "Packing and dispatch recommendation"],
+      bestFor: "Importers, distributors, retail brands, food processors, and trading companies looking for export-ready Indian products."
     },
     {
       title: "Documentation",
@@ -35,7 +43,11 @@ window.SiteData = {
       image: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80",
       text: "Commercial invoices, packing lists, COO, phytosanitary support, and shipment records.",
       benefits: ["Accurate paperwork", "Fewer delays", "Audit-ready records"],
-      process: ["Collect shipment data", "Prepare documents", "Final compliance check"]
+      process: ["Collect shipment data", "Prepare documents", "Final compliance check"],
+      overview: "Documentation support keeps the shipment paperwork aligned with buyer, bank, customs, and destination expectations. Spicyva organizes the core export documents and coordinates supporting records so shipments move with fewer avoidable corrections.",
+      scope: ["Commercial invoice and packing list preparation support", "Certificate of origin and phytosanitary coordination where applicable", "Product, packing, and shipment data verification", "Buyer-specific document format alignment", "Final document review before dispatch or clearance"],
+      deliverables: ["Export document checklist", "Draft document review", "Shipment record pack", "Buyer handover support"],
+      bestFor: "Shipments requiring clean paperwork, buyer audits, customs review, banking support, or repeat export record keeping."
     },
     {
       title: "Packaging",
@@ -43,7 +55,11 @@ window.SiteData = {
       image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80",
       text: "Retail, bulk, and private-label packaging designed for safe international movement.",
       benefits: ["Custom labels", "Transit protection", "Export-grade materials"],
-      process: ["Select format", "Approve artwork", "Pack and seal"]
+      process: ["Select format", "Approve artwork", "Pack and seal"],
+      overview: "Packaging support helps buyers choose retail, bulk, or private-label formats that protect the product and present it correctly in the destination market. Spicyva aligns material, label, carton, pallet, and container handling needs before dispatch.",
+      scope: ["Bulk, retail, pouch, jar, carton, and private-label packing guidance", "Label, barcode, batch, and destination marking support", "Transit protection and carton strength planning", "Artwork approval coordination", "Final packing confirmation before shipment"],
+      deliverables: ["Packing format recommendation", "Label and carton notes", "Private-label coordination", "Dispatch-ready packing checklist"],
+      bestFor: "Retail launches, private-label programs, bulk ingredient shipments, and products moving through long international routes."
     },
     {
       title: "Freight Forwarding",
@@ -51,7 +67,11 @@ window.SiteData = {
       image: "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=900&q=80",
       text: "Air, sea, and multimodal freight planning with dependable carrier coordination.",
       benefits: ["Carrier options", "Route optimization", "Shipment tracking"],
-      process: ["Compare routes", "Book freight", "Monitor movement"]
+      process: ["Compare routes", "Book freight", "Monitor movement"],
+      overview: "Freight Forwarding support connects product readiness with the right movement plan. Spicyva helps compare air, LCL, FCL, and multimodal options while keeping dispatch timing, documentation, and buyer updates aligned.",
+      scope: ["Freight mode comparison by urgency, cost, and cargo type", "Carrier and forwarder coordination", "Pickup, stuffing, and dispatch timing support", "Shipment tracking and buyer updates", "Freight document and handover coordination"],
+      deliverables: ["Freight route options", "Booking coordination", "Dispatch timeline", "Shipment status updates"],
+      bestFor: "Time-sensitive shipments, container programs, mixed cargo, sample dispatches, and buyers who need clear movement visibility."
     },
     // {
     //   title: "Warehousing",
@@ -67,7 +87,11 @@ window.SiteData = {
       image: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80",
       text: "Customs partner coordination to keep exports moving cleanly across borders.",
       benefits: ["HS guidance", "Broker coordination", "Reduced clearance risk"],
-      process: ["Classify goods", "File documents", "Clear shipment"]
+      process: ["Classify goods", "File documents", "Clear shipment"],
+      overview: "Customs Clearance support helps reduce avoidable border delays by aligning product classification, documents, broker communication, and shipment data. Spicyva coordinates with clearance partners so each export moves with cleaner handoffs.",
+      scope: ["HS classification guidance with customs partners", "Broker communication and document handover", "Invoice, packing, origin, and product data alignment", "Clearance status follow-up", "Issue resolution support during export movement"],
+      deliverables: ["Clearance document pack", "Broker coordination notes", "Status updates", "Post-clearance record support"],
+      bestFor: "Exporters and importers managing regulated goods, new destinations, document-sensitive shipments, or recurring cargo programs."
     },
     // {
     //   title: "Door-to-Door Delivery",
@@ -478,6 +502,135 @@ window.SiteData.products = [
   ["GREEN GRAM", "green-gram", "assets/GREEN GRAM.png"],
   ["PULSES", "pulses", "assets/PULSES.png"]
 ].map(function (item) {
+  var productCopy = {
+    "TURMERIC": {
+      description: "Golden turmeric fingers and powder with strong color, clean curing, and export-ready packing.",
+      cardExtra: "Popular for spice brands, food processors, wellness blends, and private-label retail packs.",
+      detailText: "Spicyva sources turmeric from established Indian growing belts with attention to color, aroma, moisture, and cleanliness. Buyers can plan polished fingers, powder, bulk bags, or retail formats depending on destination demand. We support sample review, lot photos, packing selection, COA coordination, and export documents for smooth procurement.",
+      specs: ["Curcumin-led lot selection", "Polished or unpolished options", "Low moisture and clean grading"],
+      packaging: "25 kg PP bags, cartons, pouches, jars, or buyer-label retail packs."
+    },
+    "CORIANDER": {
+      description: "Aromatic coriander seeds selected for freshness, clean sorting, and consistent food-grade supply.",
+      cardExtra: "Suitable for whole spice packing, grinding units, seasoning brands, and foodservice buyers.",
+      detailText: "Our coriander supply is planned around aroma, seed cleanliness, color, and buyer specification. Spicyva coordinates cleaned lots, bulk packing, sampling, and export documentation so importers can source coriander for retail, wholesale, or ingredient programs with clear lot-level communication.",
+      specs: ["Whole seed supply", "Machine cleaned lots", "Aroma and color checked"],
+      packaging: "25 kg woven bags, cartons, or private-label consumer packs."
+    },
+    "RED CHILLI": {
+      description: "Bright red chilli selected for heat, color value, cleanliness, and export-grade spice packing.",
+      cardExtra: "Used by processors, masala brands, distributors, and private-label seasoning programs.",
+      detailText: "Red chilli orders are aligned to buyer needs for heat level, color, form, and packing. Spicyva supports whole chilli or powder supply, sample coordination, batch photos, packing guidance, and documents required for international food trade.",
+      specs: ["Whole or powder options", "Heat and color profile matching", "Cleaned export lots"],
+      packaging: "10 kg and 25 kg cartons, PP bags, or retail pouches."
+    },
+    "CUMIN SEEDS": {
+      description: "Earthy cumin seeds with warm aroma, clean sorting, and dependable export lot planning.",
+      cardExtra: "Ideal for spice processors, ethnic retail shelves, foodservice, and seasoning blends.",
+      detailText: "Cumin seed supply is managed with focus on aroma, purity, and buyer specification. We coordinate cleaned lots, origin notes, packing decisions, sample approval, and shipping documents so importers receive a clear and traceable export program.",
+      specs: ["Machine cleaned whole seeds", "Purity aligned to buyer spec", "Strong aroma lots"],
+      packaging: "25 kg woven bags, cartons, or buyer-specific retail packs."
+    },
+    "MUSTARD": {
+      description: "Bold mustard seeds prepared for pickling, spice blending, oil use, and retail packing.",
+      cardExtra: "A practical choice for food manufacturers, wholesalers, and ethnic grocery distributors.",
+      detailText: "Spicyva supplies mustard seeds with attention to seed size, cleanliness, moisture, and packing suitability. Orders can be planned for bulk ingredient use or retail-ready programs with documentation, sampling, and dispatch coordination.",
+      specs: ["Yellow or black mustard options", "Cleaned and graded supply", "Bulk and retail formats"],
+      packaging: "25 kg PP bags, cartons, jars, or pouches."
+    },
+    "FENNEL SEEDS": {
+      description: "Sweet, aromatic fennel seeds selected for clean appearance and fresh export aroma.",
+      cardExtra: "Requested for mouth freshener blends, spice mixes, bakery use, and retail packs.",
+      detailText: "Fennel sourcing is handled around freshness, green tone, aroma, and cleanliness. Spicyva supports sample comparison, buyer specification matching, packing selection, and export document preparation for steady international supply.",
+      specs: ["Aroma checked lots", "Cleaned whole seeds", "Buyer grade matching"],
+      packaging: "Bulk bags, cartons, pouches, jars, or private-label packs."
+    },
+    "FENUGREEK SEEDS": {
+      description: "Fenugreek seeds with characteristic bitter aroma, clean grading, and reliable bulk supply.",
+      cardExtra: "Used in spice blends, pickles, health foods, foodservice, and ingredient programs.",
+      detailText: "Fenugreek orders are prepared with focus on clean seed quality, moisture control, and export packing. Spicyva supports lot selection, packing decisions, sample review, and the paperwork needed for importers and food buyers.",
+      specs: ["Cleaned seed lots", "Low foreign matter", "Bulk and retail pack options"],
+      packaging: "25 kg bags, cartons, pouches, or buyer-label packs."
+    },
+    "CARDAMOM": {
+      description: "Premium green cardamom pods with bold aroma, careful grading, and strong retail appeal.",
+      cardExtra: "Best suited for premium spice shelves, gifting packs, hospitality, and high-value blends.",
+      detailText: "Cardamom is handled as a premium spice where aroma, pod size, color, and freshness matter. Spicyva coordinates grade selection, sample review, protective packing, and export documentation so buyers can source cardamom for retail, foodservice, or wholesale channels with confidence.",
+      specs: ["Whole pod grading", "Aroma and color checked", "Premium and standard grade options"],
+      packaging: "Vacuum packs, cartons, jars, pouches, or buyer-specific retail formats."
+    },
+    "CLOVES": {
+      description: "Whole cloves selected for strong aroma, oil-rich character, and clean export sorting.",
+      cardExtra: "Popular for spice blends, bakery, beverages, foodservice, and retail whole-spice packs.",
+      detailText: "Clove supply is planned around aroma strength, whole bud quality, cleanliness, and packing protection. Spicyva helps buyers compare lots, approve samples, plan bulk or retail formats, and receive export-ready documentation.",
+      specs: ["Whole bud supply", "Aroma-led lot selection", "Cleaned and graded lots"],
+      packaging: "Cartons, pouches, jars, or bulk export bags with liner."
+    },
+    "CINNAMON": {
+      description: "Fragrant cinnamon sticks selected for warm aroma, clean bark quality, and neat presentation.",
+      cardExtra: "A strong fit for retail spice packs, bakery buyers, beverage blends, and gifting formats.",
+      detailText: "Cinnamon orders are managed around stick form, aroma, visual quality, and packing style. Spicyva supports retail-ready sticks, bulk cartons, label coordination, sample approval, and export paperwork for buyers who need consistent presentation and dependable shipment planning.",
+      specs: ["Stick and broken options", "Aroma checked lots", "Retail-ready presentation"],
+      packaging: "Bulk cartons, pouches, jars, or private-label retail packs."
+    },
+    "BLACK PEPPER": {
+      description: "Whole black peppercorns with strong heat, bold aroma, and clean export grading.",
+      cardExtra: "Built for spice grinders, premium retail packs, foodservice, and seasoning manufacturers.",
+      detailText: "Black pepper supply is selected for heat, aroma, berry size, moisture, and cleanliness. Spicyva coordinates lot review, sample approval, bulk or retail packing, and export documentation so buyers can source peppercorns for grinding, blending, or direct retail use.",
+      specs: ["Bold grade options", "Low moisture lots", "Machine cleaned peppercorns"],
+      packaging: "25 kg bags with liner, cartons, jars, pouches, or private-label packs."
+    },
+    "STAR ANISE": {
+      description: "Star anise with distinct shape, sweet spice aroma, and careful packing for export buyers.",
+      cardExtra: "Suitable for tea blends, spice mixes, bakery, sauces, and premium whole-spice shelves.",
+      detailText: "Star anise is handled with care around shape retention, aroma, and visual presentation. Spicyva supports sample selection, protective packing, lot photos, and export documents for buyers seeking a premium whole-spice item.",
+      specs: ["Whole star selection", "Aroma checked", "Low broken percentage options"],
+      packaging: "Cartons, pouches, jars, or bulk bags with protective liners."
+    },
+    "DRIED GINGER": {
+      description: "Dried ginger with sharp warmth, clean drying, and flexible bulk or retail packing.",
+      cardExtra: "Used by spice processors, tea brands, health food buyers, and foodservice programs.",
+      detailText: "Dried ginger supply is planned around dryness, cleanliness, aroma, and buyer use case. Spicyva coordinates whole dried ginger or processed formats, sample review, packing choice, and documents needed for export movement.",
+      specs: ["Whole dried ginger options", "Low moisture checks", "Cleaned export lots"],
+      packaging: "PP bags, cartons, pouches, or buyer-specific retail packs."
+    },
+    "MACE & NUTMEG": {
+      description: "Mace and nutmeg selected for rich aroma, warm flavor, and premium spice applications.",
+      cardExtra: "Useful for bakeries, beverage blends, gourmet spice packs, sauces, and festive retail.",
+      detailText: "Mace and nutmeg orders are managed around aroma strength, appearance, clean handling, and protective packing. Spicyva supports lot selection, sample approval, whole or mixed spice programs, and export-ready documentation for premium buyers.",
+      specs: ["Whole nutmeg and mace options", "Aroma-led selection", "Protective packing support"],
+      packaging: "Cartons, pouches, jars, or bulk export packs with liners."
+    },
+    "COCONUT": {
+      description: "Coconut products sourced for food buyers needing clean packing and dependable dispatch.",
+      cardExtra: "Applicable for retail, bakery, foodservice, oil, wellness, and ingredient programs.",
+      detailText: "Coconut supply can be aligned to buyer needs for form, packing, shelf expectation, and destination documents. Spicyva coordinates samples, packing guidance, lot checks, and shipment planning for international buyers.",
+      specs: ["Buyer-led format options", "Clean packing support", "Export document coordination"],
+      packaging: "Bulk bags, cartons, jars, pouches, or private-label formats."
+    },
+    "BAY LEAF": {
+      description: "Bay leaves selected for aroma, leaf appearance, and careful packing for export supply.",
+      cardExtra: "Used in whole spice packs, seasoning blends, foodservice, soups, and sauces.",
+      detailText: "Bay leaf orders are handled around leaf condition, aroma, low breakage, and clean packing. Spicyva supports sample approval, protective cartons, private-label packs, and export paperwork for international spice buyers.",
+      specs: ["Whole leaf selection", "Aroma checked", "Low breakage packing"],
+      packaging: "Cartons, pouches, jars, or bulk bags with protective lining."
+    },
+    "GREEN GRAM": {
+      description: "Green gram sourced for clean pulse quality, consistent sorting, and food-grade export supply.",
+      cardExtra: "A practical pulse for wholesalers, ethnic retail, foodservice, and processing buyers.",
+      detailText: "Green gram supply is managed around grain size, cleanliness, moisture, and buyer packing needs. Spicyva coordinates cleaned lots, sample review, bulk or retail pack formats, and export documents for pulse importers.",
+      specs: ["Cleaned pulse lots", "Moisture checked", "Bulk and retail options"],
+      packaging: "25 kg and 50 kg bags, cartons, pouches, or private-label packs."
+    },
+    "PULSES": {
+      description: "Assorted Indian pulses planned for clean sorting, dependable packing, and bulk export.",
+      cardExtra: "Ideal for grocery importers, foodservice, wholesalers, and private-label pulse programs.",
+      detailText: "Pulse programs are planned around variety, grain quality, sorting, packing, and destination requirements. Spicyva supports mixed pulse sourcing, sample coordination, packing format decisions, and export documentation for repeat procurement.",
+      specs: ["Multiple pulse varieties", "Cleaned and sorted lots", "Retail and bulk supply"],
+      packaging: "25 kg or 50 kg bags, cartons, pouches, or buyer-label retail packs."
+    }
+  };
+  var copy = productCopy[item[0]] || {};
   return {
     name: item[0],
     slug: item[1],
@@ -487,10 +640,11 @@ window.SiteData.products = [
     availability: "Export Ready",
     moq: "As per buyer requirement",
     image: item[2],
-    description: "Carefully sourced Indian quality with clean grading, dependable packing, and export documentation for international food buyers.",
-    detailText: "Spicyva supplies this product through verified Indian sourcing channels with careful lot selection, buyer-led specifications, and export-ready documentation. Each order can be planned for retail packing, bulk movement, or private-label programs depending on destination requirements. Our team supports sample coordination, moisture and cleanliness checks, packing guidance, shipment planning, and document preparation so importers receive consistent quality with clear communication from inquiry to dispatch.",
-    specs: ["Cleaned and graded lots", "Buyer specification matching", "Bulk and retail packing options"],
-    packaging: "PP bags, cartons, jars, pouches, or buyer-specific export packing.",
+    description: copy.description || "Carefully sourced Indian quality with clean grading, dependable packing, and export documentation for international food buyers.",
+    cardExtra: copy.cardExtra || "Available for bulk export, private-label packing, samples, and destination-ready documentation support.",
+    detailText: copy.detailText || "Spicyva supplies this product through verified Indian sourcing channels with careful lot selection, buyer-led specifications, and export-ready documentation. Each order can be planned for retail packing, bulk movement, or private-label programs depending on destination requirements. Our team supports sample coordination, moisture and cleanliness checks, packing guidance, shipment planning, and document preparation so importers receive consistent quality with clear communication from inquiry to dispatch.",
+    specs: copy.specs || ["Cleaned and graded lots", "Buyer specification matching", "Bulk and retail packing options"],
+    packaging: copy.packaging || "PP bags, cartons, jars, pouches, or buyer-specific export packing.",
     shipping: "Air, LCL, and FCL sea freight coordination available.",
     certifications: "FSSAI, APEDA, phytosanitary, COA, and buyer-requested documents supported."
   };

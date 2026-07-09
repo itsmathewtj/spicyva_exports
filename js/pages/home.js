@@ -18,4 +18,5 @@
   window.Screens.initHomeHero();
   window.Screens.initProductActions(document.getElementById("app"));
   window.Screens.initWhyChoose();
+  window.Screens.initTestimonials();
 })();

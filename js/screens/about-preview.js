@@ -25,6 +25,6 @@ window.Screens.aboutEssence = function () {
     points.map(function (point) {
       return '<article class="card pad"><h3>' + point[0] + '</h3><p>' + point[1] + '</p></article>';
     }).join("") +
-    '</div></div></section><section class="highlight-image-band"><img src="assets/1010.png" alt="Spicyva export highlights"></section>'
+    '</div></div></section><section class="highlight-image-band"><img src="assets/1010-transparent.png" alt="Spicyva export highlights"></section>'
   );
 };

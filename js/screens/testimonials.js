@@ -13,3 +13,52 @@ window.Screens.testimonials = function () {
     "</div></div></section>"
   );
 };
+
+window.Screens.initTestimonials = function () {
+  var marquee = document.getElementById("testimonialGrid");
+  if (!marquee) return;
+
+  var paused = false;
+  var resumeTimer = null;
+  var lastTime = null;
+  var speed = 18;
+
+  function pauseTemporarily() {
+    paused = true;
+    clearTimeout(resumeTimer);
+    resumeTimer = setTimeout(function () {
+      paused = false;
+    }, 1800);
+  }
+
+  function normalizeScroll() {
+    var half = marquee.scrollWidth / 2;
+    if (marquee.scrollLeft >= half) {
+      marquee.scrollLeft -= half;
+    } else if (marquee.scrollLeft <= 0) {
+      marquee.scrollLeft += half;
+    }
+  }
+
+  function tick(time) {
+    if (lastTime === null) lastTime = time;
+    var delta = (time - lastTime) / 1000;
+    lastTime = time;
+
+    if (!paused) {
+      marquee.scrollLeft += speed * delta;
+      normalizeScroll();
+    }
+
+    requestAnimationFrame(tick);
+  }
+
+  marquee.addEventListener("mouseenter", function () { paused = true; });
+  marquee.addEventListener("mouseleave", function () { paused = false; });
+  marquee.addEventListener("wheel", pauseTemporarily, { passive: true });
+  marquee.addEventListener("touchstart", pauseTemporarily, { passive: true });
+  marquee.addEventListener("pointerdown", pauseTemporarily);
+  marquee.addEventListener("scroll", normalizeScroll, { passive: true });
+
+  requestAnimationFrame(tick);
+};

@@ -57,7 +57,7 @@
   function renderFooter() {
     document.getElementById("site-footer").innerHTML =
       '<footer class="footer"><div class="shell footer-grid">' +
-      '<div class="footer-about"><a class="brand" href="index.html"><img class="brand-logo footer-brand-logo" src="assets/Logos.png" alt="Spicyva Exports"></a><p>Premium international export partner for products, sourcing, packaging, logistics, and long-term B2B trade programs.</p><div class="footer-socials">' +
+      '<div class="footer-about"><a class="brand" href="index.html"><img class="brand-logo footer-brand-logo" src="assets/Logos.png" alt="Spicyva Exports"></a><p>Premium international export partner for products, sourcing, packaging, logistics, and long-term B2B trade programs.</p><div class="footer-badges"><span>Export Ready</span><span>Private Label</span><span>Global Shipping</span></div><div class="footer-socials">' +
       contactIcon("whatsapp", contacts.whatsappHref, "WhatsApp Spicyva Exports") +
       contactIcon("phone", contacts.phoneHref, "Call Spicyva Exports") +
       contactIcon("email", contacts.emailHref, "Email Spicyva Exports") +

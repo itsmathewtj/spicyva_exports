@@ -6,15 +6,21 @@ window.Screens.productCard = function (product) {
     '<a class="product-image-link" href="product-detail.html?slug=' + product.slug + '"><img src="' + product.image + '" alt="' + product.name + '"></a>' +
     '<div class="body">' +
     "<h3>" + product.name + "</h3><p>" + product.description + "</p>" +
-    '<p class="card-extra">Available for bulk export, private-label packing, samples, and destination-ready documentation support.</p>' +
+    '<p class="card-extra">' + product.cardExtra + "</p>" +
     '<div class="btn-row"><a class="btn secondary" href="product-detail.html?slug=' + product.slug + '">View Details</a></div>' +
     "</div></article>"
   );
 };
 
 window.Screens.featuredProducts = function () {
-  var featuredNames = { "PULSES": true, "CINNAMON": true, "MACE & NUTMEG": true, "BLACK PEPPER": true };
-  var cards = window.SiteData.products.filter(function (product) { return featuredNames[product.name]; }).map(window.Screens.productCard).join("");
+  var featuredOrder = ["CARDAMOM", "BLACK PEPPER", "MACE & NUTMEG", "CINNAMON"];
+  var cards = featuredOrder
+    .map(function (name) {
+      return window.SiteData.products.find(function (product) { return product.name === name; });
+    })
+    .filter(Boolean)
+    .map(window.Screens.productCard)
+    .join("");
   return (
     '<section class="section featured-products"><div class="shell"><div class="section-head"><div><p class="eyebrow">Featured Products</p><h2 class="section-title">A sharper catalog for global buyers.</h2><p class="section-lead">Product cards surface the details importers ask for first: origin, MOQ, lot status, and a clear next step.</p></div><a class="btn" href="products.html">Open Catalog</a></div><div class="grid four">' +
     cards +
