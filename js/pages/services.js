@@ -5,7 +5,7 @@
       eyebrow: "Services",
       title: "Simple export support, clearly packaged.",
       text: "Lean service cards for sourcing, paperwork, packing, freight, and delivery.",
-      image: "assets/777.png",
+      image: "assets/1616.png",
       actions: [{ label: "Explore Products", href: "products.html" }, { label: "Request Quote", href: "contact.html" }]
     }) + window.Screens.servicesFull();
 
